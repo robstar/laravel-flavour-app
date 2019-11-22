@@ -2,7 +2,3 @@ meta:
     name: my-laravel6-project-demo
     version: 0.1
 spec: 0.1
-addons:
-    'composer/robstar/laravel-flavour-demo:v0.0.1':
-        manager: 'flavour/fam-php-laravel:0.0.2'
-        hash: 89f587eac1eff49839e34b237679569977b7dc920290ed0122e5b999e666f869
