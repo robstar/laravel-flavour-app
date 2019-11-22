@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "642ddfa1274a3202a8877125925734ff",
+    "content-hash": "1395c77852762cd7db4cfad676de6016",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1419,6 +1419,48 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "robstar/laravel-flavour-addon-demo",
+            "version": "v0.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robstar/laravel-flavour-addon-demo.git",
+                "reference": "8cd6cc44aa6c86d532f8b96dc2de727e7163be66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robstar/laravel-flavour-addon-demo/zipball/8cd6cc44aa6c86d532f8b96dc2de727e7163be66",
+                "reference": "8cd6cc44aa6c86d532f8b96dc2de727e7163be66",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Robstar\\LaravelFlavourAddonDemo\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Robstar\\LaravelFlavourAddonDemo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sample package to demo flavour integration into Laravel",
+            "keywords": [
+                "demo",
+                "flavour",
+                "laravel"
+            ],
+            "time": "2019-11-22T14:17:29+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3059,8 +3101,8 @@
             "authors": [
                 {
                     "name": "Filipe Dobreira",
-                    "homepage": "https://github.com/filp",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "homepage": "https://github.com/filp"
                 }
             ],
             "description": "php error handling for cool kids",
@@ -3386,18 +3428,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
@@ -3997,48 +4039,6 @@
                 "xunit"
             ],
             "time": "2019-11-06T09:42:23+00:00"
-        },
-        {
-            "name": "robstar/laravel-flavour-demo",
-            "version": "v0.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/robstar/laravel-flavour-demo.git",
-                "reference": "9bc89c089afd1be14093af6755f8e7085c222a67"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/robstar/laravel-flavour-demo/zipball/9bc89c089afd1be14093af6755f8e7085c222a67",
-                "reference": "9bc89c089afd1be14093af6755f8e7085c222a67",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Robstar\\LaravelFlavourDemo\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Robstar\\LaravelFlavourDemo\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Sample package to demo flavour integration into Laravel",
-            "keywords": [
-                "demo",
-                "flavour",
-                "laravel"
-            ],
-            "time": "2019-11-22T09:44:32+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -4688,8 +4688,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
