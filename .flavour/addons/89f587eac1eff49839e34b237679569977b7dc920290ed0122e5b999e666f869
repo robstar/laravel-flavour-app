@@ -1,0 +1,16 @@
+spec: 0.1
+install:
+  package: robstar/laravel-flavour-demo:v0.0.1
+  post-install:
+  - php artisan vendor:publish --provider="Robstar\LaravelFlavourDemo\ServiceProvider"
+  mode: dev
+meta:
+  name: composer/robstar/laravel-flavour-demo
+  version: v0.0.1
+config:
+  enabled:
+    label: "Background color"
+    required: False
+    type: "scalar/string"
+    default: #fff
+    variable: WELCOME_PAGE_BACKGROUND_COLOR
