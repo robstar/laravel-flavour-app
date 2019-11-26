@@ -6,3 +6,6 @@ addons:
     'composer/robstar/laravel-flavour-addon-demo:v0.0.7':
         manager: 'flavour/fam-php-laravel:0.0.2'
         hash: 558169fd8d86a243170b3c8b184e699dd734d4a6f2dd167b1cf23e1fb865f032
+    'composer/barryvdh/laravel-debugbar:v3.2.4':
+        manager: 'flavour/fam-php-laravel:0.0.2'
+        hash: 0df151fdec6a1839a024688fd8d959b0798137b2b987317e92383514ae054a18

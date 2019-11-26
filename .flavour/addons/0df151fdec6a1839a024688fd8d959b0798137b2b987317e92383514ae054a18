@@ -1,0 +1,17 @@
+spec: 0.1
+install:
+  package: barryvdh/laravel-debugbar:v3.2.4
+  post-install:
+  - php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
+  mode: dev
+meta:
+  name: composer/barryvdh/laravel-debugbar
+  version: v3.2.4
+config: 
+  enabled: 
+    label: Enabled
+    required: True
+    type: "scalar/boolean"
+    default: false
+    variable: DEBUGBAR_ENABLED
+    
